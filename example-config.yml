@@ -1,0 +1,14 @@
+# cors-config.yml
+origins: 
+  - http://example.com
+  - http://example.org
+methods: 
+  - GET
+  - POST
+allowedHeaders: 
+  - 'Content-Type'
+  - 'Authorization'
+exposedHeaders:
+  - 'X-My-Custom-Header'
+credentials: true
+maxAge: 600
