@@ -1,2 +1,3 @@
 # cors-lite
-Watch This Space
+
+This is a novelty repository that is very unlikely to become a real thing.
