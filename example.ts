@@ -4,7 +4,7 @@ import CorsLite from './index';
 const app = express();
 
 //Instantiate your CORS policy manager with path to the config file
-const corsLiteInstance = new CorsLite('path/to/your/cors-config.yml');
+const corsLiteInstance = new CorsLite('example-config.yml');
 
 //Use cors-lite for CORS policy handling
 app.use(corsLiteInstance.init);
